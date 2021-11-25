@@ -21,15 +21,15 @@ public class Program {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				if (mat[i][j] == x) {// verifica e valor da matriz da match com o x.
-					System.out.println("Position: " + i + "," + j);//Posição
+					System.out.println("Position: " + i + "," + j);//Posiï¿½ï¿½o
 					if ((j < m) && (j >= 0))
-						System.out.println("Left: " + mat[i][j - 1]);//validação da posição a esquerda
+						System.out.println("Left: " + mat[i][j - 1]);//validaï¿½ï¿½o da posiï¿½ï¿½o a esquerda
 					if (j < n)
-						System.out.println("Right: " + mat[i][j + j]);//validação da posição a direita
+						System.out.println("Right: " + mat[i][j + j]);//validaï¿½ï¿½o da posiï¿½ï¿½o a direita
 					if (i > 0)
-						System.out.println("Up: " + mat[i - 1][j]);//validação da posição acima
+						System.out.println("Up: " + mat[i - 1][j]);//validaï¿½ï¿½o da posiï¿½ï¿½o acima
 					if (i < n)
-						System.out.println("Down: " + mat[i + 1][j]);//validação da posição abaixo
+						System.out.println("Down: " + mat[i + 1][j]);//validaï¿½ï¿½o da posiï¿½ï¿½o abaixo
 				}
 			}
 		}
